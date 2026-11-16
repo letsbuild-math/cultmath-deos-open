@@ -1,0 +1,30 @@
+name: Request a standard
+description: A kind of work DEOS Open doesn't cover yet.
+title: "[Request] "
+labels: ["request"]
+body:
+  - type: textarea
+    id: job
+    attributes:
+      label: What job were you doing?
+      description: For example, "pitching a new product to a retailer's buyer".
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: What did you need that wasn't there?
+    validations:
+      required: true
+  - type: textarea
+    id: close
+    attributes:
+      label: Which existing standard came closest?
+      description: Optional.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: My request contains nothing confidential from an employer or client.
+          required: true

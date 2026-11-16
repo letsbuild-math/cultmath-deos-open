@@ -1,0 +1,42 @@
+name: I used it
+description: Tell us how a standard worked on real work. This is how DEOS Open learns.
+title: "[Used] "
+labels: ["used-it"]
+body:
+  - type: input
+    id: standard
+    attributes:
+      label: Which standard or standards?
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: What did you use it for?
+      description: Describe the situation without naming employers, clients or people.
+    validations:
+      required: true
+  - type: dropdown
+    id: tool
+    attributes:
+      label: With which AI tool, if any?
+      options:
+        - Claude
+        - ChatGPT
+        - Gemini
+        - Copilot
+        - Another tool
+        - No AI tool
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened? What would you change?
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: My story contains nothing confidential from an employer or client.
+          required: true
