@@ -32,6 +32,14 @@ Each standard is one short file. Each one says when to use it, the rules, how to
 - **On one job:** open the module for the job (for example, Research and Marketing for a category growth project), read the "When to use" line of each standard, and run only the ones that apply.
 - **With an AI assistant:** give it the standard as context at the start of the session. Every standard is written so a model can follow it.
 
+## For AI agents and developers
+
+- **[llms.txt](llms.txt):** a map of all 54 standards with direct links to their raw text, for an agent to fetch the one it needs.
+- **[standards.json](standards.json):** every standard as structured data (id, title, module, one line, links).
+- **[schemas/](schemas/):** JSON Schemas for four templates: Decision Record (C1), Brief (C3), Gate (C5) and the Six-Lens Board (C13).
+- **[tools/check.mjs](tools/check.mjs):** checks a filled template against its schema. No dependencies: `node tools/check.mjs examples/brief.pass.json`. It checks shape, not substance.
+- **CULT+MATH connector:** agents connected to `https://cultmath.com/mcp` can call `list_standards` and `get_standard` to read any standard by its id.
+
 ## Help improve it
 
 Report a mistake, request a standard, or tell us how you used it: [open an issue](https://github.com/letsbuild-math/cultmath-deos-open/issues/new/choose), join [Discussions](https://github.com/letsbuild-math/cultmath-deos-open/discussions), or use the form at [cultmath.com/deos](https://cultmath.com/deos#feedback) if you don't have GitHub. See [CONTRIBUTING.md](CONTRIBUTING.md).

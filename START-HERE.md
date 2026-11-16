@@ -43,6 +43,7 @@ For a beginner walkthrough, including instructions to paste into your project, s
 
 - Give the assistant the standard file at the start of the session, with your source material.
 - Ask it to follow the standard's "How to run it" steps and fill in the template.
+- If your assistant can fetch web pages or use connectors, point it at [llms.txt](llms.txt) or connect it to `https://cultmath.com/mcp`, and it can read any standard on its own.
 - Apply [W8 Working With AI](modules/projects/W08_working_with_ai.md): plan first, then verify everything it produced before you use it.
 
 ## How each standard is written

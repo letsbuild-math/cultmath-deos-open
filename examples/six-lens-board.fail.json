@@ -1,0 +1,34 @@
+{
+  "decision": {
+    "who": "VP Marketing",
+    "what": "Whether to move the November launch to January",
+    "when": "by November 20"
+  },
+  "seats": {
+    "CEO": {
+      "read": "No direct competitor launches in the second half of the month.",
+      "tension": "Against Risk, which wants more data first.",
+      "move": "Hold the date."
+    },
+    "CFO": {
+      "read": "Launch-week media is 40% of the quarter's budget.",
+      "tension": "Against the CRO, who wants to spend into the big week.",
+      "move": "Hold back late-month spend."
+    },
+    "CRO": {
+      "read": "Store attention peaks the week before the holiday.",
+      "tension": "Against the CFO on timing of spend.",
+      "move": "Move promotion earlier."
+    },
+    "CPO": {
+      "read": "No evidence on how many of our buyers also buy the big launch.",
+      "tension": "Against the CEO's confidence.",
+      "move": "Survey the wishlist first."
+    },
+    "Risk": {
+      "read": "The read rests on one calendar source.",
+      "tension": "Against the CEO and CRO.",
+      "move": "Do not move the date on this alone."
+    }
+  }
+}

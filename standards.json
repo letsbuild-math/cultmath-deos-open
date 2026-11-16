@@ -1,0 +1,558 @@
+{
+  "name": "DEOS Open",
+  "version": "1.2",
+  "repo": "https://github.com/letsbuild-math/cultmath-deos-open",
+  "guide": "https://cultmath.com/deos",
+  "license": {
+    "text": "CC BY 4.0",
+    "templates": "MIT",
+    "credit": "DEOS Open, Ipalibo Da-Wariboko, CULT+MATH LLC"
+  },
+  "count": 54,
+  "standards": [
+    {
+      "id": "C1",
+      "title": "Decision Record",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "A decision you did not write down cannot be reviewed, defended or learned from.",
+      "path": "core/C01_decision_record.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C01_decision_record.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C01_decision_record.md",
+      "schema": "schemas/decision-record.schema.json"
+    },
+    {
+      "id": "C2",
+      "title": "Cutting a Decision Down",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "Before you optimize a plan, delete the parts of it that should not exist.",
+      "path": "core/C02_cutting_a_decision_down.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C02_cutting_a_decision_down.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C02_cutting_a_decision_down.md"
+    },
+    {
+      "id": "C3",
+      "title": "Brief Written First",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "Write down what you expect to find, and what would prove you wrong, before you look.",
+      "path": "core/C03_brief_written_first.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C03_brief_written_first.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C03_brief_written_first.md",
+      "schema": "schemas/brief.schema.json"
+    },
+    {
+      "id": "C4",
+      "title": "Control",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "A control is a claim about what \"no effect\" looks like. Write it down before you run.",
+      "path": "core/C04_control.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C04_control.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C04_control.md"
+    },
+    {
+      "id": "C5",
+      "title": "Gate",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "The verdict is what the check printed, not what you hoped it meant.",
+      "path": "core/C05_gate.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C05_gate.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C05_gate.md",
+      "schema": "schemas/gate.schema.json"
+    },
+    {
+      "id": "C6",
+      "title": "Missing Signal Is Not Good News",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "An absence is not a fact. A check that has never gone red is a hope.",
+      "path": "core/C06_missing_signal_is_not_good_news.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C06_missing_signal_is_not_good_news.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C06_missing_signal_is_not_good_news.md"
+    },
+    {
+      "id": "C7",
+      "title": "Judgment You Can Be Wrong About",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "No verdict without a range, and no judgment without the thing that would prove it wrong.",
+      "path": "core/C07_judgment_you_can_be_wrong_about.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C07_judgment_you_can_be_wrong_about.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C07_judgment_you_can_be_wrong_about.md"
+    },
+    {
+      "id": "C8",
+      "title": "Open Question Register",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "Write down the questions whose answers would change a decision, and do not let them rot.",
+      "path": "core/C08_open_question_register.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C08_open_question_register.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C08_open_question_register.md"
+    },
+    {
+      "id": "C9",
+      "title": "Failure Register",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "Name the ways you usually fail before they happen, and log every time they do.",
+      "path": "core/C09_failure_register.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C09_failure_register.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C09_failure_register.md"
+    },
+    {
+      "id": "C10",
+      "title": "Every Finding Comes With a Path",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "No honest read without a live path. No path the reader cannot walk.",
+      "path": "core/C10_every_finding_comes_with_a_path.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C10_every_finding_comes_with_a_path.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C10_every_finding_comes_with_a_path.md"
+    },
+    {
+      "id": "C11",
+      "title": "Write for One Reader",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "Pick the one person who has to act on this, and write so they can act on it after one read.",
+      "path": "core/C11_write_for_one_reader.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C11_write_for_one_reader.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C11_write_for_one_reader.md"
+    },
+    {
+      "id": "C12",
+      "title": "The Rhythm",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "Close the day, review the week, check the system every month, and keep the records current.",
+      "path": "core/C12_the_rhythm.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C12_the_rhythm.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C12_the_rhythm.md"
+    },
+    {
+      "id": "C13",
+      "title": "The Six-Lens Board",
+      "module": "Core",
+      "version": "1.0",
+      "one_line": "Read every big decision through six executive seats, then name the one course that satisfies most of them.",
+      "path": "core/C13_six_lens_board.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/core/C13_six_lens_board.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C13_six_lens_board.md",
+      "schema": "schemas/six-lens-board.schema.json"
+    },
+    {
+      "id": "R1",
+      "title": "Map the Ground First",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "The first thing you produce on a new job, client or venture contains no recommendation.",
+      "path": "modules/research/R01_map_the_ground_first.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R01_map_the_ground_first.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R01_map_the_ground_first.md"
+    },
+    {
+      "id": "R2",
+      "title": "Category Read",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "Before you advise on a category, find out how it actually decides.",
+      "path": "modules/research/R02_category_read.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R02_category_read.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R02_category_read.md"
+    },
+    {
+      "id": "R3",
+      "title": "Category Entry Point Read",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "Find the situations in which buyers think of the category, then measure which brands come to mind in each.",
+      "path": "modules/research/R03_category_entry_point_read.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R03_category_entry_point_read.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R03_category_entry_point_read.md"
+    },
+    {
+      "id": "R4",
+      "title": "Declare the Audit's Question",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "An audit answers the question it was built around, and nothing else, including the one you care about.",
+      "path": "modules/research/R04_declare_the_audits_question.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R04_declare_the_audits_question.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R04_declare_the_audits_question.md"
+    },
+    {
+      "id": "R5",
+      "title": "Evidence That Proves",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "Build the artifact so it shows the reader something they could not have known, from sources they can check.",
+      "path": "modules/research/R05_evidence_that_proves.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R05_evidence_that_proves.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R05_evidence_that_proves.md"
+    },
+    {
+      "id": "R6",
+      "title": "Test a Signal",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "Confirm the cheap-to-fake against the expensive-to-fake before a signal counts.",
+      "path": "modules/research/R06_test_a_signal.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R06_test_a_signal.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R06_test_a_signal.md"
+    },
+    {
+      "id": "R7",
+      "title": "What Buyers Actually Said",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "A phrasing you supplied is not a phrasing you found.",
+      "path": "modules/research/R07_what_buyers_actually_said.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R07_what_buyers_actually_said.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R07_what_buyers_actually_said.md"
+    },
+    {
+      "id": "R8",
+      "title": "Customer Feedback Review",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "Feedback that is not recorded, sorted and answered within a week is lost.",
+      "path": "modules/research/R08_customer_feedback_review.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R08_customer_feedback_review.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R08_customer_feedback_review.md"
+    },
+    {
+      "id": "R9",
+      "title": "Can This Be Proven?",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "Decide whether a campaign can be proven before you build it. A result you cannot attribute looks the same as luck.",
+      "path": "modules/research/R09_can_this_be_proven.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R09_can_this_be_proven.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R09_can_this_be_proven.md"
+    },
+    {
+      "id": "R10",
+      "title": "Process Diagnosis",
+      "module": "Research",
+      "version": "1.0",
+      "one_line": "Map how a process actually runs, find where it leaks, and lock the fix, before you automate anything.",
+      "path": "modules/research/R10_process_diagnosis.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/research/R10_process_diagnosis.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R10_process_diagnosis.md"
+    },
+    {
+      "id": "M1",
+      "title": "Marketing Strategy Sequence",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Orient, research backwards, segment, target, then position. In that order.",
+      "path": "modules/marketing/M01_marketing_strategy_sequence.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M01_marketing_strategy_sequence.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M01_marketing_strategy_sequence.md"
+    },
+    {
+      "id": "M2",
+      "title": "Personas as Hypotheses",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "A persona is a testable guess about one chosen segment, specific enough to settle a copy or product decision.",
+      "path": "modules/marketing/M02_personas_as_hypotheses.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M02_personas_as_hypotheses.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M02_personas_as_hypotheses.md"
+    },
+    {
+      "id": "M3",
+      "title": "Working Backwards",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Start at the decision-maker's own definition of winning and work back to the first action. Your work is a link on that chain, not the start of it.",
+      "path": "modules/marketing/M03_working_backwards.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M03_working_backwards.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M03_working_backwards.md"
+    },
+    {
+      "id": "M4",
+      "title": "Value Position",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Find where the buyer's willingness to pay is set today, what set it there, and what would move it.",
+      "path": "modules/marketing/M04_value_position.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M04_value_position.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M04_value_position.md"
+    },
+    {
+      "id": "M5",
+      "title": "Five Value Levers",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "A number without a lever is a fact about activity. A lever without a number is a belief.",
+      "path": "modules/marketing/M05_five_value_levers.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M05_five_value_levers.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M05_five_value_levers.md"
+    },
+    {
+      "id": "M6",
+      "title": "Identity Ladder",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Build a brand from purpose down to voice, in order, starting from what it actually shipped.",
+      "path": "modules/marketing/M06_identity_ladder.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M06_identity_ladder.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M06_identity_ladder.md"
+    },
+    {
+      "id": "M7",
+      "title": "Brand Read",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Read what a brand is actually known for, who decides, and what moves them, before you write a word of content.",
+      "path": "modules/marketing/M07_brand_read.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M07_brand_read.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M07_brand_read.md"
+    },
+    {
+      "id": "M8",
+      "title": "Sell the Occasion",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Small brands fight for a share of a shelf. Occasions create the demand that fills it.",
+      "path": "modules/marketing/M08_sell_the_occasion.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M08_sell_the_occasion.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M08_sell_the_occasion.md"
+    },
+    {
+      "id": "M9",
+      "title": "Experiences People Come Back To",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "You cannot create an experience. You can only design what happens at each touchpoint.",
+      "path": "modules/marketing/M09_experiences_people_come_back_to.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M09_experiences_people_come_back_to.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M09_experiences_people_come_back_to.md"
+    },
+    {
+      "id": "M10",
+      "title": "Persuade to One Action",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "One piece, one proposition, one next step, and trust earned before it is asked for.",
+      "path": "modules/marketing/M10_persuade_to_one_action.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M10_persuade_to_one_action.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M10_persuade_to_one_action.md"
+    },
+    {
+      "id": "M11",
+      "title": "Will They Move?",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Find out whether a person is ready to change before you try to change them.",
+      "path": "modules/marketing/M11_will_they_move.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M11_will_they_move.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M11_will_they_move.md"
+    },
+    {
+      "id": "M12",
+      "title": "Signal → Score → Story",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "Decide what to publish by rule, send it where the buyer decides, pay only to push what already worked, and measure what AI engines say about you.",
+      "path": "modules/marketing/M12_signal_score_story.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M12_signal_score_story.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M12_signal_score_story.md"
+    },
+    {
+      "id": "M13",
+      "title": "The Sell-In Story",
+      "module": "Marketing & Brand",
+      "version": "1.0",
+      "one_line": "A product sold through distributors has three buyers before it has a customer: the distributor, the distributor's sales rep, and the operator. Each needs its own reason, and getting listed is not the finish line.",
+      "path": "modules/marketing/M13_sell_in_story.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/marketing/M13_sell_in_story.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M13_sell_in_story.md"
+    },
+    {
+      "id": "P1",
+      "title": "Research to Product Loop",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "Every lesson from research or users is extracted where it happens, qualified in a batch, and put into the product only after it is proven.",
+      "path": "modules/product/P01_research_to_product_loop.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P01_research_to_product_loop.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P01_research_to_product_loop.md"
+    },
+    {
+      "id": "P2",
+      "title": "Early User Sessions",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "Every beta or pilot session produces a written signal you can act on, or it was a demo.",
+      "path": "modules/product/P02_early_user_sessions.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P02_early_user_sessions.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P02_early_user_sessions.md"
+    },
+    {
+      "id": "P3",
+      "title": "Release Checks",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "Test the paths a customer actually takes, in order, before any customer takes them.",
+      "path": "modules/product/P03_release_checks.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P03_release_checks.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P03_release_checks.md"
+    },
+    {
+      "id": "P4",
+      "title": "Know the Product After Launch",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "Build the maps that let you explain the product, see where it breaks, and decide what to improve next.",
+      "path": "modules/product/P04_know_the_product_after_launch.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P04_know_the_product_after_launch.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P04_know_the_product_after_launch.md"
+    },
+    {
+      "id": "P5",
+      "title": "Trust at Every Touch",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "Write down what would break your users' trust, and check every feature, message and price against it before it ships.",
+      "path": "modules/product/P05_trust_at_every_touch.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P05_trust_at_every_touch.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P05_trust_at_every_touch.md"
+    },
+    {
+      "id": "P6",
+      "title": "Where Does the Knowledge Live?",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "When a system has grown past what one person can hold in their head, audit where its knowledge lives, not whether it is good.",
+      "path": "modules/product/P06_where_does_the_knowledge_live.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P06_where_does_the_knowledge_live.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P06_where_does_the_knowledge_live.md"
+    },
+    {
+      "id": "P7",
+      "title": "Decide What It Will Never Do",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "A system that survives has decided in advance what it will never do. A boundary that has to be remembered is not a boundary.",
+      "path": "modules/product/P07_decide_what_it_will_never_do.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P07_decide_what_it_will_never_do.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P07_decide_what_it_will_never_do.md"
+    },
+    {
+      "id": "P8",
+      "title": "A Playbook Has Been Run",
+      "module": "Product & Innovation",
+      "version": "1.0",
+      "one_line": "A playbook that has never been run is a belief. The first run makes it a fact. And a playbook run perfectly can still lose money.",
+      "path": "modules/product/P08_a_playbook_has_been_run.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/product/P08_a_playbook_has_been_run.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P08_a_playbook_has_been_run.md"
+    },
+    {
+      "id": "W1",
+      "title": "Which Process",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Don't spend energy deciding which standard to use. Answer the question that fits your moment and run what it points to.",
+      "path": "modules/projects/W01_which_process.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W01_which_process.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W01_which_process.md"
+    },
+    {
+      "id": "W2",
+      "title": "Rank by Leverage",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "If you only had ten hours this week, which work would matter most?",
+      "path": "modules/projects/W02_rank_by_leverage.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W02_rank_by_leverage.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W02_rank_by_leverage.md"
+    },
+    {
+      "id": "W3",
+      "title": "Meeting Brief",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Walk into every important meeting with a private live brief, and, when it helps, one shared visual.",
+      "path": "modules/projects/W03_meeting_brief.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W03_meeting_brief.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W03_meeting_brief.md"
+    },
+    {
+      "id": "W4",
+      "title": "Working Session That Decides",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "A session with several parties exists to make decisions only those people together can make. Cut the agenda to those.",
+      "path": "modules/projects/W04_working_session_that_decides.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W04_working_session_that_decides.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W04_working_session_that_decides.md"
+    },
+    {
+      "id": "W5",
+      "title": "Capture the Session",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Capture a long working session within 24 hours, before what it produced evaporates.",
+      "path": "modules/projects/W05_capture_the_session.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W05_capture_the_session.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W05_capture_the_session.md"
+    },
+    {
+      "id": "W6",
+      "title": "Raw Thinking to Strategy",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Turn a month of scattered notes, ideas and conflicts into a short, executable plan.",
+      "path": "modules/projects/W06_raw_thinking_to_strategy.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W06_raw_thinking_to_strategy.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W06_raw_thinking_to_strategy.md"
+    },
+    {
+      "id": "W7",
+      "title": "Advisor Sessions",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Advice is valuable only if it is captured, classified and routed to a decision.",
+      "path": "modules/projects/W07_advisor_sessions.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W07_advisor_sessions.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W07_advisor_sessions.md"
+    },
+    {
+      "id": "W8",
+      "title": "Working With AI",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Plan, approve, execute, verify, deliver. In that order, every time.",
+      "path": "modules/projects/W08_working_with_ai.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W08_working_with_ai.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W08_working_with_ai.md"
+    },
+    {
+      "id": "W9",
+      "title": "Writing About Your Own Work",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Write about your own work with the confidence its record earns, and not a word more.",
+      "path": "modules/projects/W09_writing_about_your_own_work.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W09_writing_about_your_own_work.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W09_writing_about_your_own_work.md"
+    },
+    {
+      "id": "W10",
+      "title": "Outputs That Serve",
+      "module": "Projects & People",
+      "version": "1.0",
+      "one_line": "Marketing that works by hiding something from the buyer is extraction. Every output says who bears its cost.",
+      "path": "modules/projects/W10_outputs_that_serve.md",
+      "url": "https://github.com/letsbuild-math/cultmath-deos-open/blob/main/modules/projects/W10_outputs_that_serve.md",
+      "raw_url": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W10_outputs_that_serve.md"
+    }
+  ]
+}
