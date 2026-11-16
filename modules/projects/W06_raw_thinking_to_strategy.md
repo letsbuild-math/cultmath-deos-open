@@ -1,6 +1,6 @@
 # W6 · Raw Thinking to Strategy
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_05
+**Module:** Projects & People · **Version:** 1.0
 
 > **Turn a month of scattered notes, ideas and conflicts into a short, executable plan.**
 

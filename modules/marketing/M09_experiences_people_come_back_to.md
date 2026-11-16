@@ -1,6 +1,6 @@
 # M9 · Experiences People Come Back To
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_91
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **You cannot create an experience. You can only design what happens at each touchpoint.**
 

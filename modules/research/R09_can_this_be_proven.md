@@ -1,6 +1,6 @@
 # R9 · Can This Be Proven?
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_120
+**Module:** Research · **Version:** 1.0
 
 > **Decide whether a campaign can be proven before you build it. A result you cannot attribute looks the same as luck.**
 

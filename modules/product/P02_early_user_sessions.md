@@ -1,6 +1,6 @@
 # P2 · Early User Sessions
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_23
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **Every beta or pilot session produces a written signal you can act on, or it was a demo.**
 

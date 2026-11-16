@@ -1,6 +1,6 @@
 # P6 · Where Does the Knowledge Live?
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_110
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **When a system has grown past what one person can hold in their head, audit where its knowledge lives, not whether it is good.**
 

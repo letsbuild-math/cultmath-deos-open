@@ -1,6 +1,6 @@
 # C9 · Failure Register
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_28
+**Module:** Core · **Version:** 1.0
 
 > **Name the ways you usually fail before they happen, and log every time they do.**
 

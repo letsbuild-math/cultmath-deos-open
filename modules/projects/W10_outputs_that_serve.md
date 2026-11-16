@@ -1,6 +1,6 @@
 # W10 · Outputs That Serve
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_129
+**Module:** Projects & People · **Version:** 1.0
 
 > **Marketing that works by hiding something from the buyer is extraction. Every output says who bears its cost.**
 

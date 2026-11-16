@@ -1,6 +1,6 @@
 # R2 · Category Read
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_108
+**Module:** Research · **Version:** 1.0
 
 > **Before you advise on a category, find out how it actually decides.**
 

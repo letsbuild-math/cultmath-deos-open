@@ -1,6 +1,6 @@
 # R10 · Process Diagnosis
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_74
+**Module:** Research · **Version:** 1.0
 
 > **Map how a process actually runs, find where it leaks, and lock the fix, before you automate anything.**
 

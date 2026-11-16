@@ -1,6 +1,6 @@
 # M7 · Brand Read
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** brand read instrument
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Read what a brand is actually known for, who decides, and what moves them, before you write a word of content.**
 

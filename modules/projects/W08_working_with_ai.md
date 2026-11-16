@@ -1,6 +1,6 @@
 # W8 · Working With AI
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_42
+**Module:** Projects & People · **Version:** 1.0
 
 > **Plan, approve, execute, verify, deliver. In that order, every time.**
 

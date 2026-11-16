@@ -1,6 +1,6 @@
 # C12 · The Rhythm
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_16, cm_06, cm_29, cm_133
+**Module:** Core · **Version:** 1.0
 
 > **Close the day, review the week, check the system every month, and keep the records current.**
 

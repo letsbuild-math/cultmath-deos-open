@@ -1,6 +1,6 @@
 # M1 · Marketing Strategy Sequence
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_44
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Orient, research backwards, segment, target, then position. In that order.**
 

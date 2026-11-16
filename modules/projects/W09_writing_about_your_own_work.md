@@ -1,6 +1,6 @@
 # W9 · Writing About Your Own Work
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_63
+**Module:** Projects & People · **Version:** 1.0
 
 > **Write about your own work with the confidence its record earns, and not a word more.**
 

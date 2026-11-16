@@ -1,6 +1,6 @@
 # M10 · Persuade to One Action
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_47
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **One piece, one proposition, one next step, and trust earned before it is asked for.**
 

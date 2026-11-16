@@ -1,6 +1,6 @@
 # R1 · Map the Ground First
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_104
+**Module:** Research · **Version:** 1.0
 
 > **The first thing you produce on a new job, client or venture contains no recommendation.**
 

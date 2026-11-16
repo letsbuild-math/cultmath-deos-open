@@ -1,6 +1,6 @@
 # W1 · Which Process
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_08
+**Module:** Projects & People · **Version:** 1.0
 
 > **Don't spend energy deciding which standard to use. Answer the question that fits your moment and run what it points to.**
 

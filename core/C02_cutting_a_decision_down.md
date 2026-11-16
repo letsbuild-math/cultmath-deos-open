@@ -1,6 +1,6 @@
 # C2 · Cutting a Decision Down
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_37
+**Module:** Core · **Version:** 1.0
 
 > **Before you optimize a plan, delete the parts of it that should not exist.**
 

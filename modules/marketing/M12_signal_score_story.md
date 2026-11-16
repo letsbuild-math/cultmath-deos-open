@@ -1,6 +1,6 @@
 # M12 · Signal → Score → Story
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_61, cm_65, cm_68
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Decide what to publish by rule, send it where the buyer decides, pay only to push what already worked, and measure what AI engines say about you.**
 

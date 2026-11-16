@@ -1,6 +1,6 @@
 # M3 · Working Backwards
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_85 §09A
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Start at the decision-maker's own definition of winning and work back to the first action. Your work is a link on that chain, not the start of it.**
 

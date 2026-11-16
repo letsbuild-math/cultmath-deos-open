@@ -1,6 +1,6 @@
 # C8 · Open Question Register
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_103
+**Module:** Core · **Version:** 1.0
 
 > **Write down the questions whose answers would change a decision, and do not let them rot.**
 

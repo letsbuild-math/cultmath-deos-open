@@ -1,6 +1,6 @@
 # P8 · A Playbook Has Been Run
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_117
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **A playbook that has never been run is a belief. The first run makes it a fact. And a playbook run perfectly can still lose money.**
 

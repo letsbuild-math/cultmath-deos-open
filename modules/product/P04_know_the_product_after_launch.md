@@ -1,6 +1,6 @@
 # P4 · Know the Product After Launch
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_25
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **Build the maps that let you explain the product, see where it breaks, and decide what to improve next.**
 
