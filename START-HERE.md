@@ -39,6 +39,8 @@ Use [W1 Which Process](modules/projects/W01_which_process.md) to pick a standard
 
 ## Using it with an AI assistant
 
+For a beginner walkthrough, including instructions to paste into your project, see [cultmath.com/deos](https://cultmath.com/deos).
+
 - Give the assistant the standard file at the start of the session, with your source material.
 - Ask it to follow the standard's "How to run it" steps and fill in the template.
 - Apply [W8 Working With AI](modules/projects/W08_working_with_ai.md): plan first, then verify everything it produced before you use it.

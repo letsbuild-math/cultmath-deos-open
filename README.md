@@ -18,6 +18,8 @@ Each standard is one short file. Each one says when to use it, the rules, how to
 
 54 standards in all. Start with [START-HERE.md](START-HERE.md).
 
+**New to this?** The step-by-step setup guide for Claude, ChatGPT and other AI tools is at **[cultmath.com/deos](https://cultmath.com/deos)**. No GitHub needed.
+
 ## The three rules under everything
 
 1. **Write the question down before you look at the evidence.** A finding you could not have predicted wrong is not a finding.
