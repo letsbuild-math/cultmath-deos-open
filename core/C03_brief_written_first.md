@@ -73,6 +73,8 @@ The brief has seven fields. All seven are filled in before the first piece of ev
 **Named gap:**
 ```
 
+**Machine-readable version:** [`schemas/brief.schema.json`](../schemas/brief.schema.json). Fill it as JSON and check it with `node tools/check.mjs your-file.json --schema brief`. The check confirms the fields are there, not that they are any good.
+
 ---
 
 Ipalibo Da-Wariboko · CULT+MATH LLC · November 16, 2026

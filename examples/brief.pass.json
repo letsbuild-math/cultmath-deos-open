@@ -1,0 +1,41 @@
+{
+  "title": "Group ordering occasion",
+  "registered_at": "2026-11-16T15:00:00Z",
+  "question": "What share of our category buyers think of us when ordering food for a group?",
+  "decision": {
+    "decision": "Whether to build the spring campaign around group ordering",
+    "owner": "Brand director"
+  },
+  "explanations": [
+    {
+      "kind": "leading",
+      "text": "Buyers do not link us to group orders because we never show the occasion."
+    },
+    {
+      "kind": "boring",
+      "text": "Few category buyers order for groups at all, so the occasion is small."
+    },
+    {
+      "kind": "unwelcome",
+      "text": "Buyers link group orders to a competitor so strongly that we cannot win it this year."
+    }
+  ],
+  "priors": [
+    {
+      "explanation": "leading",
+      "band": "likely"
+    },
+    {
+      "explanation": "boring",
+      "band": "unlikely"
+    },
+    {
+      "explanation": "unwelcome",
+      "band": "unlikely"
+    }
+  ],
+  "falsifier": "If more than half of group-ordering buyers already link us to the occasion, the leading explanation is wrong.",
+  "stopping_rule": "300 completed category-buyer responses or December 15, whichever comes first.",
+  "repeating_unit": "A category buyer who ordered for a group in the last 3 months",
+  "expected_result": "Under a fifth of group-ordering buyers link us to the occasion."
+}

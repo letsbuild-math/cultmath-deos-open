@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/schemas/brief.schema.json",
+  "title": "Research Brief",
+  "description": "The seven fields, filled in before the first piece of evidence is collected. Standard: C3 Brief Written First (core/C03_brief_written_first.md). DEOS Open · Ipalibo Da-Wariboko · CULT+MATH LLC · MIT.",
+  "type": "object",
+  "required": [
+    "title",
+    "registered_at",
+    "question",
+    "decision",
+    "explanations",
+    "priors",
+    "falsifier",
+    "stopping_rule",
+    "repeating_unit",
+    "expected_result"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Short name."
+    },
+    "registered_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T",
+      "description": "When the brief was written, before any evidence was collected. ISO 8601."
+    },
+    "question": {
+      "type": "string",
+      "minLength": 10,
+      "pattern": "\\?\\s*$",
+      "description": "Written as a question."
+    },
+    "decision": {
+      "type": "object",
+      "required": [
+        "decision",
+        "owner"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "type": "string",
+          "minLength": 10,
+          "description": "The decision the research serves."
+        },
+        "owner": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Who makes it."
+        }
+      }
+    },
+    "explanations": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "text"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "leading",
+              "boring",
+              "unwelcome",
+              "other"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 10,
+            "description": "The explanation."
+          }
+        }
+      },
+      "allOf": [
+        {
+          "contains": {
+            "properties": {
+              "kind": {
+                "const": "boring"
+              }
+            }
+          }
+        },
+        {
+          "contains": {
+            "properties": {
+              "kind": {
+                "const": "unwelcome"
+              }
+            }
+          }
+        }
+      ],
+      "description": "Two to four candidates. One must be the boring one and one the unwelcome one."
+    },
+    "priors": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "explanation",
+          "band"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "explanation": {
+            "type": "string",
+            "enum": [
+              "leading",
+              "boring",
+              "unwelcome",
+              "other"
+            ]
+          },
+          "band": {
+            "type": "string",
+            "enum": [
+              "almost no chance",
+              "very unlikely",
+              "unlikely",
+              "roughly even",
+              "likely",
+              "very likely",
+              "almost certain"
+            ]
+          }
+        }
+      }
+    },
+    "falsifier": {
+      "type": "string",
+      "minLength": 10,
+      "description": "The result that would make you drop the leading explanation."
+    },
+    "stopping_rule": {
+      "type": "string",
+      "minLength": 10,
+      "description": "A count, a date or a budget."
+    },
+    "repeating_unit": {
+      "type": "string",
+      "minLength": 3,
+      "description": "The thing you count."
+    },
+    "expected_result": {
+      "type": "string",
+      "minLength": 10,
+      "description": "What you expect to find, written before you look."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "limit"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 3,
+            "description": "The source."
+          },
+          "limit": {
+            "type": "string",
+            "minLength": 10,
+            "description": "What it can and cannot tell you."
+          },
+          "interested_party": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "named_gap": {
+      "type": "string",
+      "minLength": 10,
+      "description": "What no source you have can answer."
+    }
+  },
+  "additionalProperties": false
+}

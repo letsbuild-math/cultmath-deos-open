@@ -67,6 +67,8 @@
 **Reconciliation.** [Seat] and [seat] pull against each other because [ ]. The course that satisfies most seats is [ ], which [seat] will resist because [ ].
 ```
 
+**Machine-readable version:** [`schemas/six-lens-board.schema.json`](../schemas/six-lens-board.schema.json). Fill it as JSON and check it with `node tools/check.mjs your-file.json --schema six-lens-board`. The check confirms the fields are there, not that they are any good.
+
 ---
 
 Ipalibo Da-Wariboko · CULT+MATH LLC · November 16, 2026

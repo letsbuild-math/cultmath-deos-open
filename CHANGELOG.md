@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2 · November 16, 2026
+
+- **For agents:** `llms.txt` and `standards.json`, built from the standard files by `tools/build-index.mjs`.
+- **Schemas:** JSON Schemas for the Decision Record (C1), Brief (C3), Gate (C5) and Six-Lens Board (C13), with a passing and a failing example of each.
+- **Checker:** `tools/check.mjs`, no dependencies, plus `tools/check.test.mjs`, which confirms every failing example fails.
+- C1, C3, C5 and C13 link to their schema.
+- The CULT+MATH connector serves the standards (`list_standards`, `get_standard`).
+
 ## 1.1 · November 16, 2026
 
 - **CONTRIBUTING.md:** three ways to help, house style, how changes are decided, and contribution licensing (same as the repo).

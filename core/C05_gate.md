@@ -58,6 +58,8 @@
 - **If failed:** defect found · fix · rebuilt gate registered [date]
 ```
 
+**Machine-readable version:** [`schemas/gate.schema.json`](../schemas/gate.schema.json). Fill it as JSON and check it with `node tools/check.mjs your-file.json --schema gate`. The check confirms the fields are there, not that they are any good.
+
 ---
 
 Ipalibo Da-Wariboko · CULT+MATH LLC · November 16, 2026

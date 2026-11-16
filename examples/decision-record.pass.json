@@ -1,0 +1,18 @@
+{
+  "decision": "We will price the first pilot at a fixed fee rather than by the hour.",
+  "status": "DECIDED",
+  "date": "2026-11-16",
+  "decided_by": "Head of Marketing",
+  "evidence": [
+    {
+      "source": "Pilot scoping notes, three client calls",
+      "date": "2026-11-12"
+    },
+    {
+      "source": "Hours logged on the last two comparable projects",
+      "date": "2026-11-14"
+    }
+  ],
+  "tradeoff": "We carry the risk of overrun; if the pilot takes twice the hours we absorb the cost.",
+  "trigger_for_reconsideration": "Reopen if hours on the pilot pass 40 before week three."
+}

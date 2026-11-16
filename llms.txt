@@ -1,0 +1,78 @@
+# DEOS Open
+
+> 54 written standards for marketing, research, product and project work. Each says when to use it, the rules, how to run it, how you know it is done, common failures and a template. Text CC BY 4.0, templates MIT. Credit: DEOS Open, Ipalibo Da-Wariboko, CULT+MATH LLC.
+
+How to use these with an agent: fetch the one standard the task needs (raw links below), follow its "How to run it" steps in order, fill its template, and check the result against its "Done when" list. Never invent facts, figures or sources. Four standards have a JSON Schema for their template (schemas/), and tools/check.mjs validates a filled record with no dependencies.
+
+- [standards.json](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/standards.json): every standard as structured data
+- [START-HERE.md](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/START-HERE.md): where to begin
+- [Beginner setup guide](https://cultmath.com/deos): Claude, ChatGPT and other AI tools
+
+## Core
+
+- [C1 · Decision Record](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C01_decision_record.md): A decision you did not write down cannot be reviewed, defended or learned from. Schema: https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/schemas/decision-record.schema.json
+- [C2 · Cutting a Decision Down](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C02_cutting_a_decision_down.md): Before you optimize a plan, delete the parts of it that should not exist.
+- [C3 · Brief Written First](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C03_brief_written_first.md): Write down what you expect to find, and what would prove you wrong, before you look. Schema: https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/schemas/brief.schema.json
+- [C4 · Control](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C04_control.md): A control is a claim about what "no effect" looks like. Write it down before you run.
+- [C5 · Gate](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C05_gate.md): The verdict is what the check printed, not what you hoped it meant. Schema: https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/schemas/gate.schema.json
+- [C6 · Missing Signal Is Not Good News](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C06_missing_signal_is_not_good_news.md): An absence is not a fact. A check that has never gone red is a hope.
+- [C7 · Judgment You Can Be Wrong About](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C07_judgment_you_can_be_wrong_about.md): No verdict without a range, and no judgment without the thing that would prove it wrong.
+- [C8 · Open Question Register](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C08_open_question_register.md): Write down the questions whose answers would change a decision, and do not let them rot.
+- [C9 · Failure Register](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C09_failure_register.md): Name the ways you usually fail before they happen, and log every time they do.
+- [C10 · Every Finding Comes With a Path](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C10_every_finding_comes_with_a_path.md): No honest read without a live path. No path the reader cannot walk.
+- [C11 · Write for One Reader](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C11_write_for_one_reader.md): Pick the one person who has to act on this, and write so they can act on it after one read.
+- [C12 · The Rhythm](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C12_the_rhythm.md): Close the day, review the week, check the system every month, and keep the records current.
+- [C13 · The Six-Lens Board](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C13_six_lens_board.md): Read every big decision through six executive seats, then name the one course that satisfies most of them. Schema: https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/schemas/six-lens-board.schema.json
+
+## Research
+
+- [R1 · Map the Ground First](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R01_map_the_ground_first.md): The first thing you produce on a new job, client or venture contains no recommendation.
+- [R2 · Category Read](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R02_category_read.md): Before you advise on a category, find out how it actually decides.
+- [R3 · Category Entry Point Read](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R03_category_entry_point_read.md): Find the situations in which buyers think of the category, then measure which brands come to mind in each.
+- [R4 · Declare the Audit's Question](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R04_declare_the_audits_question.md): An audit answers the question it was built around, and nothing else, including the one you care about.
+- [R5 · Evidence That Proves](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R05_evidence_that_proves.md): Build the artifact so it shows the reader something they could not have known, from sources they can check.
+- [R6 · Test a Signal](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R06_test_a_signal.md): Confirm the cheap-to-fake against the expensive-to-fake before a signal counts.
+- [R7 · What Buyers Actually Said](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R07_what_buyers_actually_said.md): A phrasing you supplied is not a phrasing you found.
+- [R8 · Customer Feedback Review](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R08_customer_feedback_review.md): Feedback that is not recorded, sorted and answered within a week is lost.
+- [R9 · Can This Be Proven?](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R09_can_this_be_proven.md): Decide whether a campaign can be proven before you build it. A result you cannot attribute looks the same as luck.
+- [R10 · Process Diagnosis](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/research/R10_process_diagnosis.md): Map how a process actually runs, find where it leaks, and lock the fix, before you automate anything.
+
+## Marketing & Brand
+
+- [M1 · Marketing Strategy Sequence](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M01_marketing_strategy_sequence.md): Orient, research backwards, segment, target, then position. In that order.
+- [M2 · Personas as Hypotheses](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M02_personas_as_hypotheses.md): A persona is a testable guess about one chosen segment, specific enough to settle a copy or product decision.
+- [M3 · Working Backwards](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M03_working_backwards.md): Start at the decision-maker's own definition of winning and work back to the first action. Your work is a link on that chain, not the start of it.
+- [M4 · Value Position](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M04_value_position.md): Find where the buyer's willingness to pay is set today, what set it there, and what would move it.
+- [M5 · Five Value Levers](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M05_five_value_levers.md): A number without a lever is a fact about activity. A lever without a number is a belief.
+- [M6 · Identity Ladder](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M06_identity_ladder.md): Build a brand from purpose down to voice, in order, starting from what it actually shipped.
+- [M7 · Brand Read](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M07_brand_read.md): Read what a brand is actually known for, who decides, and what moves them, before you write a word of content.
+- [M8 · Sell the Occasion](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M08_sell_the_occasion.md): Small brands fight for a share of a shelf. Occasions create the demand that fills it.
+- [M9 · Experiences People Come Back To](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M09_experiences_people_come_back_to.md): You cannot create an experience. You can only design what happens at each touchpoint.
+- [M10 · Persuade to One Action](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M10_persuade_to_one_action.md): One piece, one proposition, one next step, and trust earned before it is asked for.
+- [M11 · Will They Move?](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M11_will_they_move.md): Find out whether a person is ready to change before you try to change them.
+- [M12 · Signal → Score → Story](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M12_signal_score_story.md): Decide what to publish by rule, send it where the buyer decides, pay only to push what already worked, and measure what AI engines say about you.
+- [M13 · The Sell-In Story](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/marketing/M13_sell_in_story.md): A product sold through distributors has three buyers before it has a customer: the distributor, the distributor's sales rep, and the operator. Each needs its own reason, and getting listed is not the finish line.
+
+## Product & Innovation
+
+- [P1 · Research to Product Loop](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P01_research_to_product_loop.md): Every lesson from research or users is extracted where it happens, qualified in a batch, and put into the product only after it is proven.
+- [P2 · Early User Sessions](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P02_early_user_sessions.md): Every beta or pilot session produces a written signal you can act on, or it was a demo.
+- [P3 · Release Checks](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P03_release_checks.md): Test the paths a customer actually takes, in order, before any customer takes them.
+- [P4 · Know the Product After Launch](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P04_know_the_product_after_launch.md): Build the maps that let you explain the product, see where it breaks, and decide what to improve next.
+- [P5 · Trust at Every Touch](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P05_trust_at_every_touch.md): Write down what would break your users' trust, and check every feature, message and price against it before it ships.
+- [P6 · Where Does the Knowledge Live?](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P06_where_does_the_knowledge_live.md): When a system has grown past what one person can hold in their head, audit where its knowledge lives, not whether it is good.
+- [P7 · Decide What It Will Never Do](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P07_decide_what_it_will_never_do.md): A system that survives has decided in advance what it will never do. A boundary that has to be remembered is not a boundary.
+- [P8 · A Playbook Has Been Run](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/product/P08_a_playbook_has_been_run.md): A playbook that has never been run is a belief. The first run makes it a fact. And a playbook run perfectly can still lose money.
+
+## Projects & People
+
+- [W1 · Which Process](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W01_which_process.md): Don't spend energy deciding which standard to use. Answer the question that fits your moment and run what it points to.
+- [W2 · Rank by Leverage](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W02_rank_by_leverage.md): If you only had ten hours this week, which work would matter most?
+- [W3 · Meeting Brief](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W03_meeting_brief.md): Walk into every important meeting with a private live brief, and, when it helps, one shared visual.
+- [W4 · Working Session That Decides](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W04_working_session_that_decides.md): A session with several parties exists to make decisions only those people together can make. Cut the agenda to those.
+- [W5 · Capture the Session](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W05_capture_the_session.md): Capture a long working session within 24 hours, before what it produced evaporates.
+- [W6 · Raw Thinking to Strategy](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W06_raw_thinking_to_strategy.md): Turn a month of scattered notes, ideas and conflicts into a short, executable plan.
+- [W7 · Advisor Sessions](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W07_advisor_sessions.md): Advice is valuable only if it is captured, classified and routed to a decision.
+- [W8 · Working With AI](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W08_working_with_ai.md): Plan, approve, execute, verify, deliver. In that order, every time.
+- [W9 · Writing About Your Own Work](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W09_writing_about_your_own_work.md): Write about your own work with the confidence its record earns, and not a word more.
+- [W10 · Outputs That Serve](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/modules/projects/W10_outputs_that_serve.md): Marketing that works by hiding something from the buyer is extraction. Every output says who bears its cost.

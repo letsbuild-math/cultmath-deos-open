@@ -1,0 +1,13 @@
+{
+  "name": "Minimum sample per city",
+  "rule": "A city is reported only if it has at least 30 completed responses.",
+  "threshold": {
+    "value": 30
+  },
+  "checked_on_real_case": {
+    "case": "Austin, 41 responses",
+    "output": "PASS 41 >= 30"
+  },
+  "result": "pass",
+  "result_output": "9 of 11 cities PASS; Boise and Tulsa FAIL"
+}

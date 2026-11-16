@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/schemas/six-lens-board.schema.json",
+  "title": "Six-Lens Board",
+  "description": "Six seats in a fixed order, each with a read, a tension and a move, ending in the reconciliation. Standard: C13 The Six-Lens Board (core/C13_six_lens_board.md). DEOS Open · Ipalibo Da-Wariboko · CULT+MATH LLC · MIT.",
+  "type": "object",
+  "required": [
+    "decision",
+    "seats",
+    "reconciliation"
+  ],
+  "properties": {
+    "decision": {
+      "type": "object",
+      "required": [
+        "who",
+        "what"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "who": {
+          "type": "string",
+          "minLength": 2,
+          "description": "The decision-maker."
+        },
+        "what": {
+          "type": "string",
+          "minLength": 10,
+          "description": "The decision."
+        },
+        "when": {
+          "type": "string"
+        }
+      }
+    },
+    "seats": {
+      "type": "object",
+      "required": [
+        "CEO",
+        "CFO",
+        "CRO",
+        "CPO",
+        "Legal",
+        "Risk"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "CEO": {
+          "type": "object",
+          "required": [
+            "read",
+            "tension",
+            "move"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "read": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat sees in the evidence, with the figure in it. If there is no evidence, say so."
+            },
+            "tension": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat weighs against, and which seat it disagrees with."
+            },
+            "move": {
+              "type": "string",
+              "minLength": 5,
+              "description": "What this seat would do."
+            }
+          }
+        },
+        "CFO": {
+          "type": "object",
+          "required": [
+            "read",
+            "tension",
+            "move"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "read": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat sees in the evidence, with the figure in it. If there is no evidence, say so."
+            },
+            "tension": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat weighs against, and which seat it disagrees with."
+            },
+            "move": {
+              "type": "string",
+              "minLength": 5,
+              "description": "What this seat would do."
+            }
+          }
+        },
+        "CRO": {
+          "type": "object",
+          "required": [
+            "read",
+            "tension",
+            "move"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "read": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat sees in the evidence, with the figure in it. If there is no evidence, say so."
+            },
+            "tension": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat weighs against, and which seat it disagrees with."
+            },
+            "move": {
+              "type": "string",
+              "minLength": 5,
+              "description": "What this seat would do."
+            }
+          }
+        },
+        "CPO": {
+          "type": "object",
+          "required": [
+            "read",
+            "tension",
+            "move"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "read": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat sees in the evidence, with the figure in it. If there is no evidence, say so."
+            },
+            "tension": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat weighs against, and which seat it disagrees with."
+            },
+            "move": {
+              "type": "string",
+              "minLength": 5,
+              "description": "What this seat would do."
+            }
+          }
+        },
+        "Legal": {
+          "type": "object",
+          "required": [
+            "read",
+            "tension",
+            "move"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "read": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat sees in the evidence, with the figure in it. If there is no evidence, say so."
+            },
+            "tension": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat weighs against, and which seat it disagrees with."
+            },
+            "move": {
+              "type": "string",
+              "minLength": 5,
+              "description": "What this seat would do."
+            }
+          }
+        },
+        "Risk": {
+          "type": "object",
+          "required": [
+            "read",
+            "tension",
+            "move"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "read": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat sees in the evidence, with the figure in it. If there is no evidence, say so."
+            },
+            "tension": {
+              "type": "string",
+              "minLength": 10,
+              "description": "What this seat weighs against, and which seat it disagrees with."
+            },
+            "move": {
+              "type": "string",
+              "minLength": 5,
+              "description": "What this seat would do."
+            }
+          }
+        }
+      }
+    },
+    "reconciliation": {
+      "type": "object",
+      "required": [
+        "pulling_against",
+        "course",
+        "resisted_by"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "pulling_against": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "enum": [
+              "CEO",
+              "CFO",
+              "CRO",
+              "CPO",
+              "Legal",
+              "Risk"
+            ]
+          },
+          "description": "The seats that pull against each other."
+        },
+        "course": {
+          "type": "string",
+          "minLength": 10,
+          "description": "The single course that satisfies the most seats."
+        },
+        "resisted_by": {
+          "type": "string",
+          "minLength": 10,
+          "description": "Which seat will resist it, and why."
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
