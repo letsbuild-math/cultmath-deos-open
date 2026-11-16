@@ -32,6 +32,10 @@ Each standard is one short file. Each one says when to use it, the rules, how to
 - **On one job:** open the module for the job (for example, Research and Marketing for a category growth project), read the "When to use" line of each standard, and run only the ones that apply.
 - **With an AI assistant:** give it the standard as context at the start of the session. Every standard is written so a model can follow it.
 
+## Help improve it
+
+Report a mistake, request a standard, or tell us how you used it: [open an issue](https://github.com/letsbuild-math/cultmath-deos-open/issues/new/choose), join [Discussions](https://github.com/letsbuild-math/cultmath-deos-open/discussions), or use the form at [cultmath.com/deos](https://cultmath.com/deos#feedback) if you don't have GitHub. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 
 Text: [CC BY 4.0](LICENSE). Templates: MIT. See [LICENSE](LICENSE).

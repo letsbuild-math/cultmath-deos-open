@@ -1,0 +1,31 @@
+name: Report a mistake
+description: Something in a standard is wrong, unclear or out of date.
+title: "[Mistake] "
+labels: ["mistake"]
+body:
+  - type: input
+    id: standard
+    attributes:
+      label: Which standard?
+      description: The code and name, for example "C01 Decision Record".
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong or unclear?
+      description: Quote the line if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What should it say instead?
+      description: Optional. If it's a figure, include the source and its date.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: My report contains nothing confidential from an employer or client.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or share an idea
+    url: https://github.com/letsbuild-math/cultmath-deos-open/discussions
+    about: Questions, ideas and show-and-tell go in Discussions.
+  - name: No GitHub account? Use the form
+    url: https://cultmath.com/deos#feedback
+    about: Send feedback from cultmath.com instead.
