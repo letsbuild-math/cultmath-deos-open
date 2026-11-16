@@ -1,6 +1,6 @@
 # M6 · Identity Ladder
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_114
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Build a brand from purpose down to voice, in order, starting from what it actually shipped.**
 

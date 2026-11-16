@@ -1,6 +1,6 @@
 # R6 · Test a Signal
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_71, cm_70
+**Module:** Research · **Version:** 1.0
 
 > **Confirm the cheap-to-fake against the expensive-to-fake before a signal counts.**
 

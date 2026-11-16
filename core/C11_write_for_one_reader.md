@@ -1,6 +1,6 @@
 # C11 · Write for One Reader
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_36, cm_13
+**Module:** Core · **Version:** 1.0
 
 > **Pick the one person who has to act on this, and write so they can act on it after one read.**
 

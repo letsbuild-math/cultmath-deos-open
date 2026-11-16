@@ -1,6 +1,6 @@
 # C3 · Brief Written First
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_123
+**Module:** Core · **Version:** 1.0
 
 > **Write down what you expect to find, and what would prove you wrong, before you look.**
 

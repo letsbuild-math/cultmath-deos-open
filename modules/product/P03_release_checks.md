@@ -1,6 +1,6 @@
 # P3 · Release Checks
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_24
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **Test the paths a customer actually takes, in order, before any customer takes them.**
 

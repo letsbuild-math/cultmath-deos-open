@@ -1,6 +1,6 @@
 # M11 · Will They Move?
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_107
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Find out whether a person is ready to change before you try to change them.**
 

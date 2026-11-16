@@ -1,6 +1,6 @@
 # R5 · Evidence That Proves
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_96
+**Module:** Research · **Version:** 1.0
 
 > **Build the artifact so it shows the reader something they could not have known, from sources they can check.**
 

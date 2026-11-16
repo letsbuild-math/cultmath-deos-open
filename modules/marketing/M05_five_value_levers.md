@@ -1,6 +1,6 @@
 # M5 · Five Value Levers
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_119
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **A number without a lever is a fact about activity. A lever without a number is a belief.**
 

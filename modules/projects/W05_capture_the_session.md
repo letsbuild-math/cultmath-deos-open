@@ -1,6 +1,6 @@
 # W5 · Capture the Session
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_43
+**Module:** Projects & People · **Version:** 1.0
 
 > **Capture a long working session within 24 hours, before what it produced evaporates.**
 

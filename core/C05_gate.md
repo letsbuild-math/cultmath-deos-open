@@ -1,6 +1,6 @@
 # C5 · Gate
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_139
+**Module:** Core · **Version:** 1.0
 
 > **The verdict is what the check printed, not what you hoped it meant.**
 

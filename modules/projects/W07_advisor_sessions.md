@@ -1,6 +1,6 @@
 # W7 · Advisor Sessions
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_09
+**Module:** Projects & People · **Version:** 1.0
 
 > **Advice is valuable only if it is captured, classified and routed to a decision.**
 

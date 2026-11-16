@@ -1,6 +1,6 @@
 # C6 · Missing Signal Is Not Good News
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_84
+**Module:** Core · **Version:** 1.0
 
 > **An absence is not a fact. A check that has never gone red is a hope.**
 

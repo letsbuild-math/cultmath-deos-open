@@ -1,6 +1,6 @@
 # W4 · Working Session That Decides
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_90
+**Module:** Projects & People · **Version:** 1.0
 
 > **A session with several parties exists to make decisions only those people together can make. Cut the agenda to those.**
 

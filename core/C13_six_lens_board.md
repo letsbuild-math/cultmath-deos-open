@@ -1,6 +1,6 @@
 # C13 · The Six-Lens Board
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_141 §02–§03, cm_06 §08
+**Module:** Core · **Version:** 1.0
 
 > **Read every big decision through six executive seats, then name the one course that satisfies most of them.**
 

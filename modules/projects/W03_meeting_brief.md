@@ -1,6 +1,6 @@
 # W3 · Meeting Brief
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_14, cm_45
+**Module:** Projects & People · **Version:** 1.0
 
 > **Walk into every important meeting with a private live brief, and, when it helps, one shared visual.**
 

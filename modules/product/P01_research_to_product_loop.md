@@ -1,6 +1,6 @@
 # P1 · Research to Product Loop
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_94
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **Every lesson from research or users is extracted where it happens, qualified in a batch, and put into the product only after it is proven.**
 

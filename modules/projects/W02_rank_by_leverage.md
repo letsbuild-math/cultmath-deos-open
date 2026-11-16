@@ -1,6 +1,6 @@
 # W2 · Rank by Leverage
 
-**Module:** Projects & People · **Version:** 1.0 · **From DEOS:** cm_10
+**Module:** Projects & People · **Version:** 1.0
 
 > **If you only had ten hours this week, which work would matter most?**
 

@@ -1,6 +1,6 @@
 # M2 · Personas as Hypotheses
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_17
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **A persona is a testable guess about one chosen segment, specific enough to settle a copy or product decision.**
 

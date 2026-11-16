@@ -1,6 +1,6 @@
 # C4 · Control
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_143
+**Module:** Core · **Version:** 1.0
 
 > **A control is a claim about what "no effect" looks like. Write it down before you run.**
 

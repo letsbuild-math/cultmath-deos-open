@@ -1,6 +1,6 @@
 # R7 · What Buyers Actually Said
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_140
+**Module:** Research · **Version:** 1.0
 
 > **A phrasing you supplied is not a phrasing you found.**
 

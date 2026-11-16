@@ -1,6 +1,6 @@
 # M8 · Sell the Occasion
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_93
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Small brands fight for a share of a shelf. Occasions create the demand that fills it.**
 

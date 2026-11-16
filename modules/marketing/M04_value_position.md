@@ -1,6 +1,6 @@
 # M4 · Value Position
 
-**Module:** Marketing & Brand · **Version:** 1.0 · **From DEOS:** cm_122
+**Module:** Marketing & Brand · **Version:** 1.0
 
 > **Find where the buyer's willingness to pay is set today, what set it there, and what would move it.**
 

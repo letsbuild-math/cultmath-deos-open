@@ -1,6 +1,6 @@
 # C10 · Every Finding Comes With a Path
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_105
+**Module:** Core · **Version:** 1.0
 
 > **No honest read without a live path. No path the reader cannot walk.**
 

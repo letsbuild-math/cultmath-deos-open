@@ -1,6 +1,6 @@
 # C1 · Decision Record
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_22
+**Module:** Core · **Version:** 1.0
 
 > **A decision you did not write down cannot be reviewed, defended or learned from.**
 

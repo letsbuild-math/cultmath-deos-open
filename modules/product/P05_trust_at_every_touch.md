@@ -1,6 +1,6 @@
 # P5 · Trust at Every Touch
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_21
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **Write down what would break your users' trust, and check every feature, message and price against it before it ships.**
 

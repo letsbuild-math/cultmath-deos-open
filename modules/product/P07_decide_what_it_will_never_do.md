@@ -1,6 +1,6 @@
 # P7 · Decide What It Will Never Do
 
-**Module:** Product & Innovation · **Version:** 1.0 · **From DEOS:** cm_118
+**Module:** Product & Innovation · **Version:** 1.0
 
 > **A system that survives has decided in advance what it will never do. A boundary that has to be remembered is not a boundary.**
 

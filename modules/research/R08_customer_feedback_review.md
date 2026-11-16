@@ -1,6 +1,6 @@
 # R8 · Customer Feedback Review
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_07
+**Module:** Research · **Version:** 1.0
 
 > **Feedback that is not recorded, sorted and answered within a week is lost.**
 

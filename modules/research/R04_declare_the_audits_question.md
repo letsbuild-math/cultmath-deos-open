@@ -1,6 +1,6 @@
 # R4 · Declare the Audit's Question
 
-**Module:** Research · **Version:** 1.0 · **From DEOS:** cm_115
+**Module:** Research · **Version:** 1.0
 
 > **An audit answers the question it was built around, and nothing else, including the one you care about.**
 

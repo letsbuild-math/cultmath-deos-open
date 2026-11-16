@@ -1,6 +1,6 @@
 # C7 · Judgment You Can Be Wrong About
 
-**Module:** Core · **Version:** 1.0 · **From DEOS:** cm_102
+**Module:** Core · **Version:** 1.0
 
 > **No verdict without a range, and no judgment without the thing that would prove it wrong.**
 
