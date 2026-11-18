@@ -10,13 +10,13 @@ Each standard is one short file. Each one says when to use it, the rules, how to
 
 | Module | Standards | What it covers |
 |---|---|---|
-| [Core](core/) | 13 | Decisions, briefs, controls, gates, failures, open questions, writing, rhythm, the six-lens board |
+| [Core](core/) | 14 | Decisions, briefs, controls, gates, failures, open questions, writing, rhythm, the six-lens board, the humane check |
 | [Research](modules/research/) | 10 | Mapping a market, category and entry-point reads, evidence, signals, customer voice |
 | [Marketing & Brand](modules/marketing/) | 13 | Strategy sequence, personas, positioning, value, brand, occasions, persuasion, sell-in |
 | [Product & Innovation](modules/product/) | 8 | Research-to-product loop, user sessions, release checks, trust, scope |
 | [Projects & People](modules/projects/) | 10 | Picking the process, ranking work, meetings, sessions, advisors, working with AI |
 
-54 standards in all. Start with [START-HERE.md](START-HERE.md).
+55 standards in all. Start with [START-HERE.md](START-HERE.md).
 
 **New to this?** The step-by-step setup guide for Claude, ChatGPT and other AI tools is at **[cultmath.com/deos](https://cultmath.com/deos)**. No GitHub needed.
 
@@ -34,7 +34,7 @@ Each standard is one short file. Each one says when to use it, the rules, how to
 
 ## For AI agents and developers
 
-- **[llms.txt](llms.txt):** a map of all 54 standards with direct links to their raw text, for an agent to fetch the one it needs.
+- **[llms.txt](llms.txt):** a map of all 55 standards with direct links to their raw text, for an agent to fetch the one it needs.
 - **[standards.json](standards.json):** every standard as structured data (id, title, module, one line, links).
 - **[schemas/](schemas/):** JSON Schemas for four templates: Decision Record (C1), Brief (C3), Gate (C5) and the Six-Lens Board (C13).
 - **[tools/check.mjs](tools/check.mjs):** checks a filled template against its schema. No dependencies: `node tools/check.mjs examples/brief.pass.json`. It checks shape, not substance.

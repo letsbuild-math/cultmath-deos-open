@@ -27,7 +27,7 @@ test('file names map to schemas', () => {
 test('the index is current', () => {
   const idx = JSON.parse(fs.readFileSync('standards.json', 'utf8'));
   assert.equal(idx.count, idx.standards.length);
-  assert.equal(idx.standards.length, 54);
+  assert.equal(idx.standards.length, 55);
   for (const s of idx.standards) assert.ok(fs.existsSync(s.path), s.path);
   assert.ok(fs.readFileSync('llms.txt', 'utf8').startsWith('# DEOS Open'));
 });

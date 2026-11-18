@@ -1,6 +1,6 @@
 # Core
 
-Decisions, briefs, controls, gates, failures, questions, writing, rhythm and the six-lens board. Run these on every job.
+Decisions, briefs, controls, gates, failures, questions, writing, rhythm, the six-lens board and the humane check. Run these on every job.
 
 | Standard | The one line |
 |---|---|
@@ -17,6 +17,7 @@ Decisions, briefs, controls, gates, failures, questions, writing, rhythm and the
 | [C11 · Write for One Reader](C11_write_for_one_reader.md) | Pick the one person who has to act on this, and write so they can act on it after one read. |
 | [C12 · The Rhythm](C12_the_rhythm.md) | Close the day, review the week, check the system every month, and keep the records current. |
 | [C13 · The Six-Lens Board](C13_six_lens_board.md) | Read every big decision through six executive seats, then name the one course that satisfies most of them. |
+| [C14 · The Humane Check](C14_humane_check.md) | Before a decision that lands on other people leaves your hands, check that it leaves them better off, not just you. |
 
 ---
 
