@@ -1,6 +1,6 @@
 # DEOS Open
 
-> 54 written standards for marketing, research, product and project work. Each says when to use it, the rules, how to run it, how you know it is done, common failures and a template. Text CC BY 4.0, templates MIT. Credit: DEOS Open, Ipalibo Da-Wariboko, CULT+MATH LLC.
+> 55 written standards for marketing, research, product and project work. Each says when to use it, the rules, how to run it, how you know it is done, common failures and a template. Text CC BY 4.0, templates MIT. Credit: DEOS Open, Ipalibo Da-Wariboko, CULT+MATH LLC.
 
 How to use these with an agent: fetch the one standard the task needs (raw links below), follow its "How to run it" steps in order, fill its template, and check the result against its "Done when" list. Never invent facts, figures or sources. Four standards have a JSON Schema for their template (schemas/), and tools/check.mjs validates a filled record with no dependencies.
 
@@ -23,6 +23,7 @@ How to use these with an agent: fetch the one standard the task needs (raw links
 - [C11 · Write for One Reader](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C11_write_for_one_reader.md): Pick the one person who has to act on this, and write so they can act on it after one read.
 - [C12 · The Rhythm](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C12_the_rhythm.md): Close the day, review the week, check the system every month, and keep the records current.
 - [C13 · The Six-Lens Board](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C13_six_lens_board.md): Read every big decision through six executive seats, then name the one course that satisfies most of them. Schema: https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/schemas/six-lens-board.schema.json
+- [C14 · The Humane Check](https://raw.githubusercontent.com/letsbuild-math/cultmath-deos-open/main/core/C14_humane_check.md): Before a decision that lands on other people leaves your hands, check that it leaves them better off, not just you.
 
 ## Research
 

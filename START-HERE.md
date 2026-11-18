@@ -1,6 +1,6 @@
 # Start Here
 
-DEOS Open is 54 short standards. You do not need all of them. This page gets you running in a week.
+DEOS Open is 55 short standards. You do not need all of them. This page gets you running in a week.
 
 ## Day 1: set up the workspace
 
@@ -13,7 +13,7 @@ Copy the [`workspace/`](workspace/) folder into a place you own: a private repo,
 | `failures/` | The failure register and its log | C9 |
 | `questions/` | The open question register | C8 |
 | `reviews/` | Daily, weekly and monthly reviews | C12 |
-| `published/` | Anything that left your hands: decks, memos, posts | C11, C13 |
+| `published/` | Anything that left your hands: decks, memos, posts | C11, C13, C14 |
 
 ## Week 1: run four Core standards
 
@@ -35,7 +35,7 @@ Use [W1 Which Process](modules/projects/W01_which_process.md) to pick a standard
 | 1–3 | R1 Map the Ground First · R2 Category Read | Know who decides, where the money sits and which dates are fixed before you recommend anything |
 | 3–6 | R7 What Buyers Actually Said · R3 Category Entry Point Read | Learn the situations in which operators and end customers think of the category, in their words |
 | 6–8 | M4 Value Position · M3 Working Backwards · M13 The Sell-In Story | Build the distributor, sales-rep and operator stories from the entry points and the four numbers |
-| 8+ | R9 Can This Be Proven? · C4 Control · C13 Six-Lens Board | Set the bar and the baseline before launch, and take the recommendation to the decision-maker |
+| 8+ | R9 Can This Be Proven? · C4 Control · C13 Six-Lens Board · C14 Humane Check | Set the bar and the baseline before launch, take the recommendation to the decision-maker, and check who it lands on |
 
 ## Using it with an AI assistant
 
