@@ -1,6 +1,8 @@
 # DEOS Open
 
-**A decision operating system for marketers and solo founders.**
+**A programmatic decision enablement operating system for executives and their agents.** Free.
+
+In plain words: written standards a person or an AI agent can follow, step by step, so a decision is framed, weighed and recorded the same way every time. "Programmatic" means an agent can fetch any standard by name (on the CULT+MATH MCP server, `list_standards` and `get_standard`) and check its records against published JSON schemas.
 
 DEOS Open is a set of written standards for doing marketing, research, product and project work so that every decision can be traced, checked and learned from. It is the open edition of DEOS, the internal operating system of CULT+MATH LLC.
 
