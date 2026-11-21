@@ -99,3 +99,7 @@ Skip it on a day with no finished work. See rule 4.
 - **C9 Failure Register:** where new failure candidates go once adopted.
 - **C12 The Rhythm:** the person's daily close. This pass is the standards' daily close.
 - **C4 Control and C5 Gate:** the checks rule 6 runs.
+
+---
+
+Ipalibo Da-Wariboko · CULT+MATH LLC · November 21, 2026
