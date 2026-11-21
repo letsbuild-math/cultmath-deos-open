@@ -1,6 +1,6 @@
 # Start Here
 
-DEOS Open is 55 short standards. You do not need all of them. This page gets you running in a week.
+DEOS Open is 56 short standards. You do not need all of them. This page gets you running in a week.
 
 ## Day 1: set up the workspace
 
@@ -12,7 +12,7 @@ Copy the [`workspace/`](workspace/) folder into a place you own: a private repo,
 | `research/` | Briefs and findings | C3, Research module |
 | `failures/` | The failure register and its log | C9 |
 | `questions/` | The open question register | C8 |
-| `reviews/` | Daily, weekly and monthly reviews | C12 |
+| `reviews/` | Daily, weekly and monthly reviews, and daily improvement passes | C12, C15 |
 | `published/` | Anything that left your hands: decks, memos, posts | C11, C13, C14 |
 
 ## Week 1: run four Core standards

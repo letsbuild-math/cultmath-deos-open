@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4 · November 20, 2026
+
+- **New: C15 The Daily Improvement Pass** (Core). Once a day, read what the day's work left behind and propose what your standards should learn from it: lessons with evidence, failure candidates, exact amendments, unfiled work. It never adopts, produces nothing on a quiet day, runs the checks your standards name, and reports two numbers that say whether it is worth running. Adapted from DEOS cm_153. Core is now 15 standards; DEOS Open is 56.
+- README, START-HERE, core/README, `llms.txt` and `standards.json` updated.
+
 ## 1.3 · November 17, 2026
 
 - **New: C14 The Humane Check** (Core). Four questions to run before a decision that lands on other people: reason, empathy, autonomy, legacy. Distilled from DEOS's Humanist Core. Core is now 14 standards; DEOS Open is 55.
