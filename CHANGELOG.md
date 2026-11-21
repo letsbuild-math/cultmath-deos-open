@@ -4,6 +4,7 @@
 
 - **New: C15 The Daily Improvement Pass** (Core). Once a day, read what the day's work left behind and propose what your standards should learn from it: lessons with evidence, failure candidates, exact amendments, unfiled work. It never adopts, produces nothing on a quiet day, runs the checks your standards name, and reports two numbers that say whether it is worth running. Adapted from DEOS cm_153. Core is now 15 standards; DEOS Open is 56.
 - README, START-HERE, core/README, `llms.txt` and `standards.json` updated.
+- **Copy no longer states how many standards there are** (README, START-HERE, `llms.txt`), so adding a standard needs no copy edits. The count lives only in `standards.json`, which `tools/build-index.mjs` writes. A test fails if a count comes back into the copy.
 
 ## 1.3 · November 17, 2026
 

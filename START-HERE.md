@@ -1,6 +1,6 @@
 # Start Here
 
-DEOS Open is 56 short standards. You do not need all of them. This page gets you running in a week.
+DEOS Open is a set of short standards. You do not need all of them. This page gets you running in a week.
 
 ## Day 1: set up the workspace
 
