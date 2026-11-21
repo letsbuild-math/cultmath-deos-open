@@ -39,7 +39,7 @@ const json = JSON.stringify({
 
 const lines = [
   '# DEOS Open', '',
-  `> ${standards.length} written standards for marketing, research, product and project work. Each says when to use it, the rules, how to run it, how you know it is done, common failures and a template. Text CC BY 4.0, templates MIT. Credit: DEOS Open, Ipalibo Da-Wariboko, CULT+MATH LLC.`, '',
+  `> Short written standards for marketing, research, product and project work. Each says when to use it, the rules, how to run it, how you know it is done, common failures and a template. Text CC BY 4.0, templates MIT. Credit: DEOS Open, Ipalibo Da-Wariboko, CULT+MATH LLC.`, '',
   'How to use these with an agent: fetch the one standard the task needs (raw links below), follow its "How to run it" steps in order, fill its template, and check the result against its "Done when" list. Never invent facts, figures or sources. Four standards have a JSON Schema for their template (schemas/), and tools/check.mjs validates a filled record with no dependencies.', '',
   `- [standards.json](${RAW}standards.json): every standard as structured data`,
   `- [START-HERE.md](${RAW}START-HERE.md): where to begin`,
