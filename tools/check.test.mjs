@@ -31,3 +31,14 @@ test('the index is current', () => {
   for (const s of idx.standards) assert.ok(fs.existsSync(s.path), s.path);
   assert.ok(fs.readFileSync('llms.txt', 'utf8').startsWith('# DEOS Open'));
 });
+
+// Nov 20, 2026: the copy never states how many standards exist, so a new standard needs no copy edits.
+// The count lives in standards.json only (written by tools/build-index.mjs).
+test('copy states no standards count', () => {
+  for (const f of ['README.md', 'START-HERE.md', 'llms.txt', 'core/README.md', 'CONTRIBUTING.md']) {
+    const s = fs.readFileSync(new URL(`../${f}`, import.meta.url), 'utf8');
+    assert.doesNotMatch(s, /\b\d+\s+(short |written |working |free )?standards\b/i, f);
+  }
+  assert.doesNotMatch(fs.readFileSync(new URL('../README.md', import.meta.url), 'utf8'), /\| Module \| Standards \|/);
+});
+
